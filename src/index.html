@@ -3,16 +3,146 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
         <title>Home</title>
     </head>
     <body>
         <div class="wrapper">
             <%- include('./partials/header.ejs') %>
             <main>
-                <h1>Home</h1>
+                <div class="hero">
+                    <div class="hero__col1">
+                        <h1>
+                            <strong>Notary Public</strong> & Legal Solutions
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Veritatis cupiditate deserunt placeat
+                            necessitatibus a aliquam corrupti nisi odio aliquid,
+                            accusamus.
+                        </p>
+                    </div>
+                    <div class="hero__col2">
+                        <form class="book-form" action="">
+                            <h3>Book an Appointment</h3>
+                            <div>
+                                <input
+                                    class="form-control"
+                                    type="text"
+                                    name=""
+                                    id=""
+                                    placeholder="Name"
+                                />
+                            </div>
+                            <div>
+                                <input
+                                    class="form-control"
+                                    type="email"
+                                    name=""
+                                    id=""
+                                    placeholder="Email"
+                                />
+                            </div>
+                            <div>
+                                <input
+                                    class="form-control"
+                                    type="date"
+                                    name=""
+                                    id=""
+                                    placeholder="Select Date"
+                                />
+                            </div>
+                            <div>
+                                <input
+                                    type="submit"
+                                    value="Book Appointment"
+                                    class="btn-book"
+                                />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="section2">
+                    <div class="text">
+                        <h2><strong>Practice</strong> Areas</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="list-card">
+                        <div class="card">
+                            <div class="wrap-icon">
+                                <i class="fa-solid fa-building-columns"></i>
+                            </div>
+                            <h3>Bankruptcy Law</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Vero, laboriosam!
+                            </p>
+                        </div>
+                        <div class="card">
+                            <div class="wrap-icon">
+                                <i class="fa-solid fa-shield-virus"></i>
+                            </div>
+                            <h3>Business Law</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Vero, laboriosam!
+                            </p>
+                        </div>
+                        <div class="card">
+                            <div class="wrap-icon">
+                                <i class="fa-solid fa-hand-holding-dollar"></i>
+                            </div>
+                            <h3>Civil Rights Law</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Vero, laboriosam!
+                            </p>
+                        </div>
+                        <div class="card">
+                            <div class="wrap-icon">
+                                <i class="fa-solid fa-house-user"></i>
+                            </div>
+                            <h3>Family Law</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Vero, laboriosam!
+                            </p>
+                        </div>
+                        <div class="card">
+                            <div class="wrap-icon">
+                                <i class="fa-solid fa-plane-departure"></i>
+                            </div>
+                            <h3>Immigration Law</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Vero, laboriosam!
+                            </p>
+                        </div>
+                        <div class="card">
+                            <div class="wrap-icon">
+                                <i class="fa-solid fa-gun"></i>
+                            </div>
+                            <h3>Criminal Law</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Vero, laboriosam!
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </main>
-            <%- include('./partials/footer.ejs') %>
+            <%-include('./partials/footer.ejs') %>
         </div>
+
         <script type="module" src="./main.js"></script>
     </body>
 </html>

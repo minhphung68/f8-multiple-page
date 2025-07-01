@@ -1,0 +1,69 @@
+.section2-contact {
+    padding: 2.5em 0;
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 120px;
+    padding: 12px;
+    font-size: 1.6rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.row1-contact {
+    display: flex;
+    gap: 30px;
+}
+
+.col1-contact {
+    width: 60%;
+}
+
+.btn-send {
+    width: 100%;
+    color: #212529;
+    background-color: #fee2b3;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.section2-contact {
+    display: flex;
+    gap: 30px;
+    background-color: #f8f9fa;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.col2-contact {
+    width: 40%;
+    background-color: var(--white-color);
+    padding: 3rem;
+}
+
+.col2-contact h3 {
+    font-weight: 900;
+    color: #364d59;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.col2-contact li span:first-child {
+    color: #000;
+}
+
+.col2-contact li span:last-child {
+    line-height: 1.7;
+    color: #364d59 !important;
+    font-weight: 300;
+    font-size: 1.6rem;
+    background: #fff;
+}

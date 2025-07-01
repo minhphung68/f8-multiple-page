@@ -1,3 +1,30 @@
 .header {
-    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 80px;
+    background: var(--primary-color);
+}
+
+.header a strong {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.header a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 15px;
+    background: transparent;
+}
+
+.header .nav {
+    display: flex;
+    gap: 15px;
 }

@@ -1,1 +1,96 @@
+footer {
+    background-image: url(../../../public/hero_bg_footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 30px;
+}
 
+// footer .container {
+//     width: 100%;
+//     padding-right: 15px;
+//     padding-left: 15px;
+//     margin-right: auto;
+//     margin-left: auto;
+// }
+
+.col1 {
+    width: 40%;
+}
+
+.col2, .col3, .col4, .col5 {
+    width: 15%;
+}
+
+footer .col1 h2,
+footer .col2 h2,
+footer .col3 h2,
+footer .col4 h2,
+footer .col5 h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+}
+
+footer .col1 p {
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+    color: var( --white-color);
+}
+
+.socials {
+    display: flex;
+    gap: 8px;
+}
+
+.socials li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    line-height: 40px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+.row2 {
+    margin-top: 96px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) ;
+    height: 92px;
+    text-align: center;
+}   
+
+.row2 p {
+    padding-top:3rem;
+    color: var(--white-color);
+}
+
+footer .col2 a,
+footer .col3 a,
+footer .col4 a,
+footer .col5 a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+footer .col2 li,
+footer .col3 li,
+footer .col4 li,
+footer .col5 li {
+    margin-bottom: 10px;
+}
+
+
+footer .col2 a:hover,
+footer .col3 a:hover,
+footer .col4 a:hover,
+footer .col5 a:hover {
+    color: var(--white-color);
+}
