@@ -14,7 +14,15 @@
     background-size: cover;
 }
 
-.section2 img {
+.section3 {
+    background: #f8f9fa;
+    padding: 3rem;
+    display: flex;
+    // flex-direction: column;
+    gap: 30px;
+}
+
+.section3 img {
     max-width: 100%;
     height: auto;
 }
